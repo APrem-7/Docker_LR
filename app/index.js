@@ -11,6 +11,8 @@ app.get("/", (req, res) => {
     res.send("Hello World!")
 })
 
+import putRouter from "./routes/post.js";
+app.use("/post", putRouter)
 
 
 app.listen(PORT, () => {
