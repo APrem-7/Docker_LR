@@ -4,6 +4,6 @@ import { postData } from "../controllers/postController.js"
 
 const putRouter = Router()
 
-putRouter.post("/put", postData)
+putRouter.post("/", postData)
 
 export default putRouter
